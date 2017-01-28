@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+        <link rel="stylesheet" type="text/css" href="client/style.css">
+    </head>
+
+    <body>
+        <div id="signDiv" style="margin: 25px;">
+            <input id="signDiv-username" type="text" placeholder="Enter your name"></br>
+            <button id="signDiv-signIn">Sign In</button>
+        </div>
+        <div id="gameDiv" style="display: none;">             
+            <div class="card1">
+                <div class="container">
+                    <div class="user" style="float: left;">
+                        <h4 id="user1"><b></b></h4> 
+                        <p id="victoryPoints">Victory Points </p>
+                        </br>
+                        <p id="healthPoints">Health Points </p>
+                    </div>
+                    <div class="picture">
+                        <img class="picture-sub" src="http://localhost:2000/client/img_avatar.png" alt="Avatar">
+                    </div>
+                </div>
+            </div>
+            <div class="card2">
+                <div class="container">
+                    <div class="user" style="float: left;">
+                        <h4 id="user2"><b></b></h4> 
+                        <p id="victoryPoints">Victory Points </p>
+                        </br>
+                        <p id="healthPoints">Health Points </p>
+                    </div>
+                    <div class="picture">
+                        <img class="picture-sub" src="http://localhost:2000/client/img_avatar.png" alt="Avatar">
+                    </div>  
+                </div>
+            </div>
+            <div class="card1">
+                <div class="container">
+                    <div class="user" style="float: left;">
+                        <h4 id="user3"><b></b></h4> 
+                        <p id="victoryPoints">Victory Points </p>
+                        </br>
+                        <p id="healthPoints">Health Points </p>
+                    </div>
+                    <div class="picture">
+                        <img class="picture-sub" src="http://localhost:2000/client/img_avatar.png" alt="Avatar">
+                    </div>  
+                </div>
+            </div>
+            <div class="card2">
+                <div class="container">
+                    <div class="user" style="float: left;">
+                        <h4 id="user4"><b></b></h4> 
+                        <p id="victoryPoints">Victory Points </p>
+                        </br>
+                        <p id="healthPoints">Health Points </p>
+                    </div>
+                    <div class="picture">
+                        <img class="picture-sub" src="http://localhost:2000/client/img_avatar.png" alt="Avatar">
+                    </div> 
+                </div>
+            </div>
+            
+            <div class="game-controls" style="float: left;">
+                <div class="container">
+                    <div class="dice-roll" style="float: left;">
+                        <h4 id="diceRoll"><b>roll</b></h4> 
+                        <button id="completeTurn" style="width: 100%;">Complete Turn</button>
+                    </div>                     
+                </div>
+            </div>
+        </div>
+        <script src="client/client.js"></script>
+    </body>
+</html>
+    
